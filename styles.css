@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+body {
+    background-color: antiquewhite;
+}
+
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul {
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 45px;
+    list-style-type: none;
+    align-items: center;
+    gap: 20px;
+}
+
+.brand img {
+    width: 35px;
+    padding-left: 10px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.container {
+    min-height: 75vh;
+}
+
+.bottom {
+    background-color: black;
+    height: 80px;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 5px;
+}
+
+#myProgressBar {
+    width : 80vw;
+}
+
+.icons {
+    margin: 12px;
+}
+
+.icons i {
+    padding: 0px 5px;
+    cursor: pointer;
+}
